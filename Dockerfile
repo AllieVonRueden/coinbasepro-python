@@ -1,4 +1,4 @@
-# Docker environment for ubuntu, conda, python3.6
+#!Docker environment for ubuntu, conda, python3.6
 #
 # Usage:
 #  * build the image:
@@ -37,3 +37,4 @@ COPY . $CODE_DIR
 
 RUN cd $CODE_DIR && \
     pip install cbpro
+ 
